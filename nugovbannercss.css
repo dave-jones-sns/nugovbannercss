@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', 'Noto Sans Myanmar', sans-serif;
+    margin: 0;
+}
+
+.topbar {
+    background-color: #f0f0f0;
+}
+
+h1.site-title a,
+.site-header .site-description {
+    font-family: 'Poppins', 'Noto Sans Myanmar', sans-serif !important;
+}
+
+.nug-top-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem;
+}
+
+.nug-top-banner span:first-child {
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+#nug-banner-content {
+    display: none;
+}
+
+.how-to-identify {
+    text-decoration: underline;
+}
+
+.nug-banner-content {
+    text-align: left;
+    padding: 20px;
+}
+
+.nug-banner-content a[href^="http"]::after,
+.nug-banner-content a[href^="https://"]::after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    margin-left: 4px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234372d6' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .nug-top-banner {
+        font-size: 0.58rem;
+        align-content: center;
+        align-items: center;
+        content: center;
+    }
+
+    .banner-content-title {
+        font-size: 0.7rem;
+    }
+
+    .banner-content-text-container {
+        font-size: 0.7rem;
+    }
+
+    .statelogo {
+        width: 22px !important;
+    }
+
+    .grid-container {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+
+img.inline-banner-icon {
+    width: 0.6rem;
+}
+
+img.banner-icon {
+    padding: 0.1rem 0 0.4rem 0;
+}
+
+.contentpd {
+    padding: 0.2rem 0 !important;
+    line-height: 1.4rem;
+}
+
+.simple-banner {
+    background-color: #f0f0f0;
+    background-image: none;
+    color: inherit;
+}
+
+.simple-banner-text {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.container {
+    background-color: #f0f0f0;
+    padding: 0.01em 16px;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first {
+    grid-area: left;
+}
+
+.second {
+    grid-area: right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'left right';
+    gap: 1rem;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #4372d6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.avoidwrap {
+    display: inline-block;
+}
