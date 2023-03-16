@@ -92,7 +92,7 @@ h1.site-title a,
     }
 
     .banner-content-title.contentpd {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 
     .contentpd {
