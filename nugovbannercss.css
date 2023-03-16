@@ -1,5 +1,6 @@
-/* Final Update On 16/3/2023
-For NUG Top Bar */
+/* Final Update On 16/3/2023 2:23 PM
+For NUG Top Bar
+Version 6 */
 
 body {
     font-family: 'Poppins', 'Noto Sans Myanmar', sans-serif;
@@ -127,7 +128,7 @@ h1.site-title a,
     font-size: 0.8rem;
 }
 
-.container {
+.nugtbcontainer {
     background-color: #f0f0f0 !important;
     padding: 0.01em 16px;
     max-width: 1320px;
@@ -151,11 +152,11 @@ h1.site-title a,
     padding: 1rem 0.4rem 1rem 0.4rem;
 }
 
-p {
+.nugtbp {
     margin: 0;
 }
 
-a {
+.nugtblink {
     cursor: pointer;
     text-decoration: none;
 }
@@ -175,6 +176,7 @@ a {
 
 .nugtitle {
     color: black;
+    padding-right: 0.2rem;
 }
 
 .tdiv {
