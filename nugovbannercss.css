@@ -168,7 +168,7 @@ h1.site-title a,
 
 .simple-banner .simple-banner-text {
     padding: 0 !important;
-    color: #000000;
+    color: #000000 !important;
 }
 
 .simple-banner .simple-banner-text a {
