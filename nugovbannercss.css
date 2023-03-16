@@ -4,7 +4,7 @@ body {
 }
 
 .topbar {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
 }
 
 h1.site-title a,
@@ -90,7 +90,7 @@ img.banner-icon {
 }
 
 .simple-banner {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
     background-image: none;
     color: inherit;
 }
@@ -101,7 +101,7 @@ img.banner-icon {
 }
 
 .container {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
     padding: 0.01em 16px;
     max-width: 1320px;
     margin-right: auto;
@@ -129,11 +129,15 @@ p {
 }
 
 a {
-    color: #4372d6;
+    color: #4372d6 !important;
     cursor: pointer;
     text-decoration: none;
 }
 
 .avoidwrap {
     display: inline-block;
+}
+
+.c {
+    color: black !important;
 }
