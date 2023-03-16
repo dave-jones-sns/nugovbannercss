@@ -81,7 +81,7 @@ img.inline-banner-icon {
 }
 
 img.banner-icon {
-    padding: 0.1rem 0 0.4rem 0;
+    padding: 0.1rem 0 0.2rem 0;
 }
 
 .contentpd {
@@ -140,4 +140,8 @@ a {
 
 .c {
     color: black !important;
+}
+
+.simple-banner .simple-banner-text {
+    padding: 0 !important;
 }
