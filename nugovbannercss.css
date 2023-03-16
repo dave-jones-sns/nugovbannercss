@@ -19,7 +19,6 @@ h1.site-title a,
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.4rem;
 }
 
 .nug-top-banner span:first-child {
@@ -89,6 +88,22 @@ h1.site-title a,
     .how-to-identify {
         line-height: 1rem;
     }
+
+    strong.banner-content-title.contentpd {
+        font-size: 1rem;
+    }
+
+    p.contentpd {
+        font-size: 0.8rem;
+    }
+
+    img.banner-icon {
+        padding: 0.1rem 0 0.8rem 0;
+    }
+}
+
+p.contentpd {
+    font-size: 0.9rem;
 }
 
 img.inline-banner-icon {
@@ -167,4 +182,6 @@ a {
 
 .tdiv {
     padding-left: 10px;
+    text-align: start;
+    margin-left: 0.4rem;
 }
