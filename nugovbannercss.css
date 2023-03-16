@@ -19,10 +19,10 @@ h1.site-title a,
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0.2rem;
 }
 
 .nug-top-banner span:first-child {
-    margin-right: 10px;
     margin-bottom: 2px;
 }
 
@@ -79,6 +79,7 @@ h1.site-title a,
 
     .nug-top-banner span {
         font-size: 12px;
+        margin-left: 0;
     }
 
     .nugtitle {
@@ -89,29 +90,26 @@ h1.site-title a,
         line-height: 1rem;
     }
 
-    strong.banner-content-title.contentpd {
+    .banner-content-title.contentpd {
         font-size: 1rem;
     }
 
-    p.contentpd {
+    .contentpd {
         font-size: 0.8rem;
     }
 
-    img.banner-icon {
-        padding: 0.1rem 0 0.8rem 0;
-    }
 }
 
-p.contentpd {
+.contentpd {
     font-size: 0.9rem;
 }
 
-img.inline-banner-icon {
+.inline-banner-icon {
     width: 0.6rem;
 }
 
-img.banner-icon {
-    padding: 0.1rem 0 0.2rem 0;
+.banner-icon {
+    padding: 0.1rem 0 0.8rem 0;
 }
 
 .contentpd {
@@ -127,7 +125,7 @@ img.banner-icon {
 
 .simple-banner-text {
     font-size: 0.8rem;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .container {
@@ -151,7 +149,7 @@ img.banner-icon {
     grid-template-areas:
         'left right';
     gap: 1rem;
-    padding: 10px;
+    padding: 1rem 0.4rem 1rem 0.4rem;
 }
 
 p {
@@ -184,4 +182,8 @@ a {
     padding-left: 10px;
     text-align: start;
     margin-left: 0.4rem;
+}
+
+.banner-content-title.contentpd {
+    font-size: initial;
 }
