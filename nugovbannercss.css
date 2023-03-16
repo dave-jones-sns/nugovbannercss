@@ -77,6 +77,18 @@ h1.site-title a,
         display: flex !important;
         flex-direction: column;
     }
+
+    .nug-top-banner span {
+        font-size: 12px;
+    }
+
+    .nugtitle {
+        line-height: 1rem;
+    }
+
+    .how-to-identify {
+        line-height: 1rem;
+    }
 }
 
 img.inline-banner-icon {
@@ -132,7 +144,6 @@ p {
 }
 
 a {
-    color: #4372d6 !important;
     cursor: pointer;
     text-decoration: none;
 }
@@ -144,4 +155,16 @@ a {
 .simple-banner .simple-banner-text {
     padding: 0 !important;
     color: #000000;
+}
+
+.simple-banner .simple-banner-text a {
+    color: #4372d6 !important;
+}
+
+.nugtitle {
+    color: black;
+}
+
+.tdiv {
+    padding-left: 10px;
 }
