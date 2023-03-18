@@ -1,6 +1,6 @@
-/* Final Update On 16/3/2023 2:23 PM
+/* Final Update On 18/3/2023 9:38 AM
 For NUG Top Bar
-Version 6 */
+Version 1.2 */
 
 body {
     font-family: 'Poppins', 'Noto Sans Myanmar', sans-serif;
@@ -35,6 +35,26 @@ h1.site-title a,
     text-decoration: underline;
 }
 
+.how-to-identify:link>.htilink {
+    color: #4372d6;
+}
+
+.how-to-identify:hover>.htilink {
+    color: #4372d6;
+}
+
+.how-to-identify:active>.htilink {
+    color: #4372d6;
+}
+
+.how-to-identify:visited>.htilink {
+    color: #4372d6;
+}
+
+a.banner-content-text.bp-masthead-button-link.bp-masthead-button-text {
+    color: #4372d6;
+}
+
 .nug-banner-content {
     text-align: left;
     padding: 20px;
@@ -59,6 +79,7 @@ h1.site-title a,
         align-content: center;
         align-items: center;
         content: center;
+        padding: .4rem .2rem .4rem .2rem;
     }
 
     .banner-content-title {
@@ -92,7 +113,7 @@ h1.site-title a,
     }
 
     .banner-content-title.contentpd {
-        font-size: 1rem !important;
+        font-size: .9rem !important;
     }
 
     .contentpd {
@@ -102,7 +123,7 @@ h1.site-title a,
 }
 
 .contentpd {
-    font-size: 0.9rem;
+    font-size: 0.84rem;
 }
 
 .inline-banner-icon {
@@ -150,7 +171,7 @@ h1.site-title a,
     grid-template-areas:
         'left right';
     gap: 1rem;
-    padding: 1rem 0.4rem 1rem 0.4rem;
+    padding: 1rem 0.3rem 1rem 0.3rem;
 }
 
 .nugtbp {
@@ -178,6 +199,7 @@ h1.site-title a,
 .nugtitle {
     color: black;
     padding-right: 0.2rem;
+    font-size: 0.8rem;
 }
 
 .tdiv {
@@ -187,7 +209,7 @@ h1.site-title a,
 }
 
 .banner-content-title.contentpd {
-    font-size: initial;
+    font-size: 0.9rem;
 }
 
 .simple-banner .simple-banner-text {
