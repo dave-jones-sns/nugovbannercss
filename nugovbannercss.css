@@ -1,6 +1,6 @@
 /* Final Update On 10/4/2023 12:32 PM
 For NUG Top Bar
-Version 1.4 */
+Version 1.5 */
 
 body {
     font-family: 'Poppins', 'Noto Sans Myanmar', sans-serif;
@@ -123,7 +123,7 @@ a.banner-content-text.bp-masthead-button-link.bp-masthead-button-text {
     }
 
     .nugtbcontainer {
-        padding: 0.01em 16px;
+        padding: 0.01em 16px !important;
     }
 
 }
